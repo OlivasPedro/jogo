@@ -1,9 +1,9 @@
 
-public class Mago extends Jogador implements Movimentacao{
+public class Mago extends Jogador{
 	private int mp;
 
-	public Mago(int posX, int posY, int mp) {
-		super(posX, posY);
+	public Mago(String nome, int posX, int posY, int mp) {
+		super(nome, posX, posY);
 		this.mp = mp;
 	}
 
@@ -13,12 +13,6 @@ public class Mago extends Jogador implements Movimentacao{
 
 	public void setMp(int mp) {
 		this.mp = mp;
-	}
-
-	@Override
-	public void mover(int x, int y) {
-		// TODO Auto-generated method stub
-		
 	}
 	
 }

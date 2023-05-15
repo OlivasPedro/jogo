@@ -1,16 +1,9 @@
 
-public class Guerreiro extends Jogador implements Movimentacao{
+public class Guerreiro extends Jogador {
 
-	public Guerreiro(int posX, int posY) {
-		super(posX, posY);
-		// TODO Auto-generated constructor stub
+	public Guerreiro(String nome, int posX, int posY) {
+		super(nome, posX, posY);
 	}
 
-
-	@Override
-	public void mover(int x, int y) {
-		// TODO Auto-generated method stub
-		
-	}
 
 }

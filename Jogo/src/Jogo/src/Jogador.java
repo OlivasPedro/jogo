@@ -1,23 +1,21 @@
 
-public abstract class Jogador {
-	private int posX;
-	private int posY;
+public abstract class Jogador extends Objeto{
+	private String nome;
+	
+	public Jogador(String nome, int posX, int posY) {
+		super(posX, posY);
+		this.nome = nome;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 	
 	
-	public Jogador(int posX, int posY) {
-		this.posX = posX;
-		this.posY = posY;
-	}
-	public int getPosX() {
-		return posX;
-	}
-	public void setPosX(int posX) {
-		this.posX = posX;
-	}
-	public int getPosY() {
-		return posY;
-	}
-	public void setPosY(int posY) {
-		this.posY = posY;
-	}
+	
+	
 }
