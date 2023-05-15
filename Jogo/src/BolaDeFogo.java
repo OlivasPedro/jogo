@@ -1,16 +1,9 @@
 
-public class BolaDeFogo implements Movimentavel {
+public class BolaDeFogo extends Personagem {
 	private int poder;
-	private int posX;
-	private int posY;
-
-	@Override
-	public void mover(int x, int y) {
-		System.out.println("Está na posição: " + x + " e "+ y);
-		
-	}
 	
-	public BolaDeFogo(int poder) {
+	public BolaDeFogo(int posX, int posY, int poder) {
+		super(posX, posY);
 		this.poder = poder;
 	}
 
@@ -20,22 +13,6 @@ public class BolaDeFogo implements Movimentavel {
 
 	public void setPoder(int poder) {
 		this.poder = poder;
-	}
-	
-	public int getPosX() {
-		return posX;
-	}
-
-	public void setPosX(int posX) {
-		this.posX = posX;
-	}
-
-	public int getPosY() {
-		return posY;
-	}
-
-	public void setPosY(int posY) {
-		this.posY = posY;
 	}
 
 }

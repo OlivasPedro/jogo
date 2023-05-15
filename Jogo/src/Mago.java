@@ -1,5 +1,5 @@
 
-public class Mago extends Jogador implements Movimentavel{
+public class Mago extends Jogador{
 	private int mp;
 
 	public Mago(int posX, int posY, int mp) {
@@ -13,12 +13,6 @@ public class Mago extends Jogador implements Movimentavel{
 
 	public void setMp(int mp) {
 		this.mp = mp;
-	}
-
-	@Override
-	public void mover(int x, int y) {
-		System.out.println("Está na posição: " + x + " e "+ x);
-		
 	}
 	
 }
