@@ -2,8 +2,8 @@
 public class Mago extends Jogador{
 	private int mp;
 
-	public Mago(int posX, int posY, int mp) {
-		super(posX, posY);
+	public Mago(String nome, int posX, int posY, int mp) {
+		super(nome, posX, posY);
 		this.mp = mp;
 	}
 

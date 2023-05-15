@@ -1,5 +1,5 @@
 
-public class BolaDeFogo extends Personagem {
+public class BolaDeFogo extends Objeto {
 	private int poder;
 	
 	public BolaDeFogo(int posX, int posY, int poder) {

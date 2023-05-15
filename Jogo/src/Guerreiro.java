@@ -1,8 +1,8 @@
 
 public class Guerreiro extends Jogador {
 
-	public Guerreiro(int posX, int posY) {
-		super(posX, posY);
+	public Guerreiro(String nome, int posX, int posY) {
+		super(nome, posX, posY);
 	}
 
 
