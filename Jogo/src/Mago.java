@@ -17,7 +17,7 @@ public class Mago extends Jogador implements Movimentacao{
 
 	@Override
 	public void mover(int x, int y) {
-		// TODO Auto-generated method stub
+		System.out.println("Está na posição: " + x + " e "+ x);
 		
 	}
 	
