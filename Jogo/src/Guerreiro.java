@@ -1,5 +1,5 @@
 
-public class Guerreiro extends Jogador implements Movimentacao{
+public class Guerreiro extends Jogador implements Movimentavel{
 
 	public Guerreiro(int posX, int posY) {
 		super(posX, posY);

@@ -1,5 +1,5 @@
 
-public class Mago extends Jogador implements Movimentacao{
+public class Mago extends Jogador implements Movimentavel{
 	private int mp;
 
 	public Mago(int posX, int posY, int mp) {

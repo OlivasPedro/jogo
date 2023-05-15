@@ -1,5 +1,5 @@
 
-public class Dragao implements Movimentacao{
+public class Dragao implements Movimentavel{
 	
 	private int posX;
 	private int posY;

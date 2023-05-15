@@ -1,5 +1,5 @@
 
-public class BolaDeFogo implements Movimentacao {
+public class BolaDeFogo implements Movimentavel {
 	private int poder;
 	private int posX;
 	private int posY;
