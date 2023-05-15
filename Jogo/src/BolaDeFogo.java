@@ -1,5 +1,5 @@
 
-public class BolaDeFogo implements Fase {
+public class BolaDeFogo implements Movimentacao {
 	private int poder;
 
 	public BolaDeFogo(int poder) {
@@ -12,12 +12,6 @@ public class BolaDeFogo implements Fase {
 
 	public void setPoder(int poder) {
 		this.poder = poder;
-	}
-
-	@Override
-	public void carregar() {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override

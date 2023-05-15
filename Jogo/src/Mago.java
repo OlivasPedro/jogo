@@ -1,5 +1,5 @@
 
-public class Mago extends Jogador implements Fase{
+public class Mago extends Jogador implements Movimentacao{
 	private int mp;
 
 	public Mago(int posX, int posY, int mp) {
@@ -13,12 +13,6 @@ public class Mago extends Jogador implements Fase{
 
 	public void setMp(int mp) {
 		this.mp = mp;
-	}
-
-	@Override
-	public void carregar() {
-		// TODO Auto-generated method stub
-		
 	}
 
 	@Override

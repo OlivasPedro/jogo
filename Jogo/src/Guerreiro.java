@@ -1,16 +1,11 @@
 
-public class Guerreiro extends Jogador implements Fase{
+public class Guerreiro extends Jogador implements Movimentacao{
 
 	public Guerreiro(int posX, int posY) {
 		super(posX, posY);
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
-	public void carregar() {
-		// TODO Auto-generated method stub
-		
-	}
 
 	@Override
 	public void mover(int x, int y) {
